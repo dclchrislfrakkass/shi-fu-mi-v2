@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Shi-Fu-Mi</title>
+</head>
+<body>
+    <header>
+        <h1>SHI-FU-MI</h1>
+        
+    </header>
+    
+    <ul>
+        <li><img onclick="choixPierre(); shifumi()" src="images/pierre.png"></li>
+        <li><img onclick="choixFeuille(); shifumi()" src="images/feuille.png"></li>
+        <li><img onclick="choixCiseaux(); shifumi()"  src="images/ciseaux.png"></li>
+    </ul>
+    <div class="bas">
+        <h2>Faites votre choix!</h2>
+        <div class="zoneChoice">
+            <div class="player">
+                <h3>Vous</h3>
+                <div class="playerChoice">
+                    <img id="x" src="images/blank.png">
+                    
+                </div>
+            </div>
+            
+            <img src="images/VS.png">
+            <div class="IA">
+                <h3>L'IA</h3>
+                <div class="iaChoice">
+                    <img id="xIa" src="images/blank.png">
+                </div>
+            </div>
+            
+            
+        </div>
+        <br>
+        <div class="whatNow">
+            
+            <div id="action">
+                <br>
+                Qui va gagner?
+                
+            </div>
+            <button type="button">Nouvelle Partie</button>
+            
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

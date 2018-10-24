@@ -1,0 +1,12 @@
+Voici les règles :
+
+* Les Ciseaux coupent le papier 
+* Le papier Enveloppe la Pierre 
+* La Pierre écrase le Lézard 
+* Le Lézard empoisonne Spock 
+* Spock casse les Ciseaux 
+* Les Ciseaux décapitent le Lézard 
+* Le Lézard mange le Papier 
+* Le Papier réfute Spock 
+* Spock vaporise la Pierre 
+* La Pierre casse les Ciseaux Simple non ? :)
